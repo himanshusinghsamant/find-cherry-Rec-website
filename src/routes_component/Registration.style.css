@@ -1,0 +1,256 @@
+.main-container {
+  display: flex;
+  height: auto;
+  width: 100vw;
+  align-items: center;
+}
+.reg-box-1 {
+  width: 40%;
+  height: auto;
+  padding-left: 20px;
+}
+
+.reg-box-2 {
+  width: 50%;
+  height: auto;
+  padding-top: 10%;
+}
+
+.form-container {
+  padding: 20px;
+  width: 100%;
+  height: 742px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: rgba(128, 163, 163, 0.1);
+}
+
+.form-container .name-inp-box {
+  display: flex;
+  justify-content: space-around;
+  margin: 10% 0 5% 0;
+}
+.first-name {
+  display: flex;
+  flex-direction: column;
+}
+.first-name span {
+  color: #000;
+  font-size: 15.76px;
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 156.9%;
+  letter-spacing: 4.396px;
+}
+.first-name input {
+  border: none;
+  width: 255px;
+  height: 20px;
+  padding: 10px 20px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: rgba(215, 210, 210, 0.25);
+}
+
+.last-name {
+  display: flex;
+  flex-direction: column;
+}
+.last-name span {
+  color: #000;
+  font-size: 15.76px;
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 156.9%;
+  letter-spacing: 4.396px;
+}
+.last-name input {
+  border: none;
+  width: 255px;
+  height: 20px;
+  padding: 10px 20px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: rgba(215, 210, 210, 0.25);
+}
+
+.phone-num-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  margin-bottom: 5%;
+}
+.phone-num-box span {
+  color: #000;
+  font-size: 15.76px;
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 156.9%;
+  letter-spacing: 4.396px;
+}
+.phone-num-box input {
+  border: none;
+  width: 255px;
+  height: 20px;
+  padding: 10px 20px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: rgba(215, 210, 210, 0.25);
+}
+
+.email-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  margin-bottom: 5%;
+}
+.email-box span {
+  color: #000;
+  font-size: 15.76px;
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 156.9%;
+  letter-spacing: 4.396px;
+}
+.email-box input {
+  border: none;
+  width: 255px;
+  height: 20px;
+  padding: 10px 20px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: rgba(215, 210, 210, 0.25);
+}
+
+.message-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  margin-bottom: 5%;
+}
+.message-box span {
+  color: rgb(111, 109, 109);
+  font-size: 15.76px;
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 156.9%;
+  letter-spacing: 4.396px;
+}
+.message-box input {
+  border: none;
+  width: 455px;
+  height: 40px;
+  padding: 10px 20px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: rgba(215, 210, 210, 0.25);
+}
+
+.main-container button {
+  margin-left: 25px;
+  width: 167px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  border: 5px solid rgba(195, 71, 198, 0.4);
+  background: #b639b1;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.main-container button:hover {
+  background-color: #f7e1f7;
+  color: purple;
+  transition: 1s;
+}
+.main-container input:hover{
+    background-color: purple;
+    transition: .7s;
+    color: white;
+}
+
+/* -------------------------> */
+
+
+.main-container-2{
+    margin-top: 10%;
+    margin-bottom:10% ;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-container-2 :nth-child(1) {
+  width: 327px;
+  height: 235px;
+  flex-shrink: 0;
+}
+.main-container-2 :nth-child(2) {
+    width: 327px;
+    height: 235px;
+    flex-shrink: 0;
+  }
+  .main-container-2 :nth-child(3) {
+    width: 327px;
+    height: 235px;
+    flex-shrink: 0;
+  }
+
+
+
+
+
+  @media (max-width:414px) {
+  .main-container{
+    padding-left: 20px;
+    
+  }
+  .form-container{
+    margin-top: 50%;
+    height: 550px;
+  }
+    .main-container .reg-box-1{
+      display: none;
+    }
+    .main-container .reg-box-2{
+      width: 80%;
+      height: auto;
+
+    }
+    .name-inp-box{
+      display: flex;
+      flex-direction: column;
+      padding-left: 25px;
+    }
+    .message-box input{
+      width: 250px;
+    }
+    .main-container button{
+      width: 140px;
+      height: 40px;
+    }
+    .main-container-2{
+      height: 200px;
+    }
+    .main-container-2 :nth-child(1){
+      width: 100px;
+      height: auto;
+    }
+    .main-container-2 :nth-child(2){
+      width: 100px;
+      height: auto;
+    }
+    .main-container-2 :nth-child(3){
+      width: 100px;
+      height: auto;
+    }
+  
+  }
+  
